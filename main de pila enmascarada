@@ -1,0 +1,17 @@
+    pila p;                                                 ///Punto 5
+    inicpila(&p);
+
+    leer(&p);
+    leer(&p);
+    leer(&p);
+    leer(&p);
+    leer(&p);
+
+    int resp=tope(p);
+
+    printf("tope= %d\n",resp);
+
+    muestrop(p);
+
+
+    return 0;
